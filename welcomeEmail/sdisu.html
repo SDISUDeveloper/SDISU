@@ -20,17 +20,6 @@
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .header, .footer {
-            background: #0078D7;
-            color: #ffffff;
-            text-align: center;
-            padding: 15px;
-            border-radius: 8px 8px 0 0;
-        }
-        .footer {
-            border-radius: 0 0 8px 8px;
-            font-size: 12px;
-        }
         .content {
             padding: 20px;
         }
@@ -59,7 +48,7 @@
             position: relative;
         }
         ul li::before {
-            content: "\2022";
+            content: "\\2022";
             color: #0078D7;
             font-weight: bold;
             display: inline-block;
@@ -78,8 +67,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <!-- Header content from repository -->
-            <h1>Welcome to the Union!</h1>
+           <img src="https://raw.githubusercontent.com/SDISUDeveloper/SDISU/main/assets/sdisu_header.png" alt="SDISU Header" style="width: 100%; border-radius: 8px 8px 0 0;">
         </div>
 
         <div class="content">
@@ -109,8 +97,7 @@
         </div>
 
         <div class="footer">
-            <!-- Footer content from repository -->
-            <p>&copy; 2025 Union. All rights reserved.</p>
+           <img src="https://raw.githubusercontent.com/SDISUDeveloper/SDISU/main/assets/sdisu_footer.png" alt="SDISU Footer" style="width: 100%; border-radius: 0 0 8px 8px;">
         </div>
     </div>
 </body>
